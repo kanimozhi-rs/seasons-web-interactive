@@ -1,0 +1,19 @@
+function changeSeasonToSpring() {
+  document.body.style.backgroundColor = "#a8e6cf";
+  document.getElementById("seasonSmallImage").src = "https://i.ibb.co/WWbSYK6X/Spring.jpg";
+}
+
+function changeSeasonToSummer() {
+  document.body.style.backgroundColor = "#ffd3b6";
+  document.getElementById("seasonSmallImage").src = "https://i.ibb.co/VWnMn7Bz/Summer.jpg";
+}
+
+function changeSeasonToAutumn() {
+  document.body.style.backgroundColor = "#ffaaa5";
+  document.getElementById("seasonSmallImage").src = "https://i.ibb.co/ympmnWJC/Autumn.jpg";
+}
+
+function changeSeasonToWinter() {
+  document.body.style.backgroundColor = "#dcedc1";
+  document.getElementById("seasonSmallImage").src = "https://i.ibb.co/JwDpX3CN/Winter.png";
+}
